@@ -1,0 +1,19 @@
+{
+  "name": "reactjs-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-client": "PORT=8080 npm --prefix ./client run start",
+    "start-server": "npm --prefix ./server run start",
+    "start-server:prod": "npm --prefix ./server run start-prod",
+    "start-client-build": "npm --prefix ./client run build",
+    "start-server-build": "npm --prefix ./server run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
